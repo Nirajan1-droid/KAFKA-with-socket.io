@@ -1,0 +1,12 @@
+.page__wrapper
+{
+	width: 82%;
+	width: calc(82% - 0.8rem);
+	margin-left: calc(18% + 0.7rem);
+	// border: 2px solid red;
+	gap: 0.5rem;
+	.page__content
+	{
+		height: calc(100% - 60px - 0.5rem);
+	}
+}
